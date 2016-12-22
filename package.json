@@ -1,0 +1,19 @@
+{
+  "name": "华夏商盟移动端",
+  "version": "1.0.0",
+  "description": "华夏商盟移动端开发",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yyy&zzz",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.1.1"
+  },
+  "dependencies": {
+    "art-template": "^3.0.3",
+    "jquery": "^1.12.4",
+    "jquery-validation": "^1.16.0"
+  }
+}

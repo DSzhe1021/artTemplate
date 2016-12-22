@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+#f-usr{
+    margin: 10px 0px;
+    line-height: 80px;
+    background-color: #fff;
+}
+#f-usr span:first-child{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+#f-usr span:first-child img{
+    vertical-align: middle;
+}
+.up-usr{
+    padding-right: 15px;
+}
+.f-h-c-s{
+    color: #666;
+}
+
+.f-span{
+    width: 10px;
+    height: 20px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 34px;
+    background: url("./../img/go.png") no-repeat 0 0;
+    background-size: auto;
+}
+#f-h-c{
+    padding-bottom: 20px;
+}
+#f-h-c1{
+    background-color: #fff;
+}
+#f-h-c1 a{
+    display: block;
+    padding: 20px 15px;
+    border-bottom: 1px solid #ccc;
+}
+#f-h-c1 .f-span1{
+    margin-top: 0px;
+}
+
+
+#f-h-m{
+    margin-bottom: 10px;
+    padding: 20px 15px;
+    text-align: center;
+    background-color: #fff;
+}
+#f-h-m a{
+    color: #69baea;
+    font-size: 16px;
+}
+#f-h-m a i{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("./../img/more.png") no-repeat 50% 100%;
+    background-size: auto;
+}
+
+
+#off{
+    text-align: center;
+    padding: 0px 10px;
+    margin: 5px 0px 10px 0px;
+}
+#off a{
+    width: 100%;
+    padding: 10px 0px;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    background-color: #fc8026;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+
+/*隐藏推出也*/
+
+.f-name{
+    margin: 10px;
+    background-color: #fff;
+}
+.f-name div{
+    padding: 10px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #666;
+    border-bottom: 1px solid #ccc;
+}
+.f-icon{
+    float: right;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    background: url("./../img/check.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}

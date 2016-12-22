@@ -1,0 +1,461 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #eeeeee;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    font: 14px/1.5 "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
+}
+body .fn-hide {
+    display: none;
+}
+.pull{
+    float:left;
+}
+.push{
+    float: right;
+}
+.clear:after{
+    content: "";
+    display: block;
+    clear:both;
+    overflow: hidden;
+}
+.container{
+    width: 100%;
+}
+.fn-fb-10{
+  position: fixed;
+  bottom:0px;
+  padding-bottom:10px;
+  width: 100%;
+}
+
+.fn-last-pb-100{
+  padding-bottom:100px;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  
+}
+/*----------------头部--------------*/
+.full-header {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #eeeeee;
+    background: #ffffff;
+    padding: 0 0 0 7px;
+    text-align: center;
+    font-size: 16px;
+}
+.full-header .icon-home{
+    position: absolute;
+    top: 12px;
+    padding: 0 5px;
+    color: #999999;
+    left:7px;
+     width:16px;
+    height: 16px;
+    background: url(../img/icon_home.png) no-repeat center center;
+    background-size: auto 100%;
+}
+.full-header .icon-back{
+    position: absolute;
+    top: 12px;
+    padding: 0 5px;
+    color: #999999;
+    left:7px;
+     width:16px;
+    height: 16px;
+    background: url(../img/icon_back.png) no-repeat center center;
+    background-size: auto 100%;
+}
+.full-header .icon-login{
+   position: absolute;
+    top: 12px;
+    padding: 0 5px;
+    color: #999999;
+    right: 7px;
+    width:16px;
+    height: 16px;
+    background: url(../img/icon_login.png) no-repeat center center;
+    background-size: auto 100%;
+}
+
+/*----------------底部导航------------------*/
+.full-footer {
+    padding: 8px 0;
+    background:#ebebeb;
+}
+.full-footer article {
+    /*padding: 20px 0 40px;*/
+    text-align: center;
+}
+.full-footer article .version {
+    text-align: center;
+}
+
+
+.full-footer article  .version a.touch {
+    color: #e94f37;
+}
+.full-footer article .version a {
+    display: inline-block;
+    padding: 0 12px;
+    color: #4761ab;
+    line-height: 20px;
+}
+.full-footer article .info a {
+    display: inline-block;
+    padding: 0 4px;
+    color: #969696;
+    line-height: 14px;
+    border-right:1px #969696 solid;
+    font-size: 12px;
+}
+.full-footer article .info a:nth-child(3){
+  border-right:none;
+} 
+.full-footer article .copyright{
+  line-height: 16px;
+  color: #969696;
+  font-size: 12px;
+}
+/*-------------------查看更多-------------------*/
+.fn-mb-20 {
+    margin-bottom: 20px !important;
+}
+.fn-mt-15 {
+    margin-top: 15px !important;
+}
+
+.part-more {
+    margin: 0 5px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    background: url(../img/more-bg.gif) repeat-x;
+    height: 34px;
+    -webkit-box-shadow: 0 2px 0 #e0e0e0;
+    line-height: 34px;
+    text-align: center;
+    background: #fff;
+}
+
+
+.part-more a {
+    display: block;
+    color: #333333;
+}
+#wap_pager i{
+    padding: 0 5px;
+    color: #999999;
+    /* right: 7px; */
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../img/icon_more.png) no-repeat center top;
+    background-size: auto 100%;
+    vertical-align: middle;
+}
+/*-----------------正在加载-------------------*/
+.layer-loading {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 12;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+}
+.pop_box {
+   position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 12;
+    width: 100%;
+    height: 100%;
+   
+}
+.dialog-all-m {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    z-index: 13;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.dialog-all-m .part-dialog-a {
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+.dialog-all-m .part-dialog-a > article {
+    border-bottom: 1px solid #eeeeee;
+    padding: 30px 15px;
+    line-height: 24px;
+}
+
+.fn-tac {
+    text-align: center !important;
+}
+
+
+/*---------------------返回顶部------------------*/
+
+.to-top {
+    display: none;
+    background: url("../img/to-top_03.png") center no-repeat;
+    background-size: 28px 28px;
+    background-color: #000;
+    opacity: .6;
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+/*---------------------导航图标------------------*/
+.to-nav {
+    display: block;
+    background: url("../img/icon_nav.png") center no-repeat;
+    background-size: 35px 35px;
+    background-color: #000;
+    opacity: .6;
+    position: fixed;
+    right: 10px;
+    top: 40%;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+/*------------------导航遮罩层------------------*/
+.zhezhao {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 12;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0.8;
+}
+/*-----------------主导航--------------*/
+
+.nav {
+    padding: 0px 36px 10px;
+    background: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+    position: relative;
+}
+.nav a {
+    display: block;
+    float: left;
+    padding:2px 5px;
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.nav a .nav-color-1 {
+    background: #049bda;
+
+}
+.nav a .nav-color-2 {
+    background: #f69440;
+}
+.nav a .nav-color-3 {
+    background: #50bb8b;
+}
+.nav a .nav-color-4 {
+    background: #90c647;
+}
+.nav a .nav-color-5{
+  background: #fff;
+  box-sizing: border-box;
+  
+}
+.nav a p {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #ffffff;
+    overflow: hidden;
+}
+.nav a p i{
+  display: block; 
+   height: 80px;
+}
+
+
+.nav a .nav-color-1 i{
+   
+   background: url(../img/icon_1.png) no-repeat center bottom;
+   background-size: 25% auto;
+}
+.nav a .nav-color-2 i{
+     
+   background: url(../img/icon_2.png) no-repeat center bottom;
+   background-size: 25% auto;
+}
+.nav a .nav-color-3 i{
+    
+   background: url(../img/icon_3.png) no-repeat center top;
+    background-size: 25% auto;
+}
+.nav a .nav-color-4 i{
+    
+   background: url(../img/icon_4.png) no-repeat center top;
+    background-size: 25% auto;
+}
+.nav a .nav-color-5 i{
+    height:70px;
+   background: url(../img/icon_5.png) no-repeat center bottom;
+    background-size: 38% auto;
+}
+.nav a span{
+  font-size:18px;
+  display: block;
+    width: 100%;
+   height: 80px;
+}
+.nav a:nth-child(1) span,.nav a:nth-child(2) span{
+  line-height: 200%;
+}
+.nav a:nth-child(3) span,.nav a:nth-child(4) span{
+  line-height: 580%;
+}
+.nav a:nth-child(5) span{
+  line-height: 200%;
+  color:#3bb8e7;
+  font-size:14px;
+}
+.nav a:nth-child(5) p{
+      position: absolute;
+       width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      top:50%;
+      left:50%;
+      margin-left:-55px;
+      margin-top:-55px;
+
+    }
+
+@media  (max-width: 414px){
+    .nav a  p{
+     width: 164px;
+      height: 164px;
+         
+    }
+    .nav {
+        padding: 0px 35px;
+      }
+    .nav a span{
+     
+       height: 80px;
+    }
+    .nav a p i {
+      height: 80px;
+    }
+    
+}
+@media  (max-width: 375px){
+    .nav a p{
+      width: 150px;
+      height: 140px;
+      
+    }
+    .nav {
+        padding: 0px 30px;
+      }
+    .nav a span{
+     
+       height: 70px;
+    }
+    .nav a p i {
+      height: 70px;
+    }
+    
+}
+@media  (max-width: 360px){
+    .nav a p{
+      width: 140px;
+      height: 140px;
+      
+    }
+    .nav {
+        padding: 0px 30px;
+      }
+    .nav a span{
+     
+       height: 70px;
+    }
+    .nav a p i {
+      height: 70px;
+    }
+}
+@media  (max-width: 320px){
+    .nav a p{
+       
+        width: 110px;
+        height: 94px;
+    }
+    .nav {
+        padding: 0px 40px;
+      }
+    .nav a span{
+          font-size: 12px;
+       height: 45px;
+    }
+    .nav a p i {
+      height: 45px;
+    }
+    .nav a:nth-child(5) p{
+      position: absolute;
+       width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      top:50%;
+      left:50%;
+      margin-left:-45px;
+      margin-top:-45px;
+
+    }
+    .nav a .nav-color-5 i{
+      height: 55px;
+    }
+
+}
+
+
+#f-nav {
+    padding: 10px 35px;
+    opacity: 0.8;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+.fpos {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    margin-top: -160px;
+    z-index: 99;
+}

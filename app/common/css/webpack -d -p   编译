@@ -1,0 +1,8 @@
+ webpack -d -p   编译
+  webpack -d -p  --watch   监控
+
+ 
+
+ npm install --save-dev webpack
+
+ npm install -g webpack
