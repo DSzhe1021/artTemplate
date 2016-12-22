@@ -7,12 +7,11 @@
   
   npm安装方法:
         
-  第一步查看本机是否有安装node
+  要使用npm,需要先女装nodeJs,第一步查看本机是否有安装node
         node -v
         
-   查看node版本号(没有node,自行百度)
+   查看node版本号(没有node,点击链接:http://nodejs.cn/)
         
-        npm install
         
         
   中途会用到webpack(或者用browserify也可以)
