@@ -2,7 +2,6 @@
 
 #f-usr{
     margin: 10px 0px;
-    line-height: 80px;
     background-color: #fff;
 }
 #f-usr span:first-child{
@@ -19,6 +18,8 @@
     vertical-align: middle;
 }
 .up-usr{
+    display: block;
+    line-height: 80px;
     padding-right: 15px;
 }
 .f-h-c-s{
