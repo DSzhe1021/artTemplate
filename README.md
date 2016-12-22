@@ -1,5 +1,5 @@
 # artTemplate
-仅供学习，不做任何商业用途
+注:仅供学习，不做任何商业用途
 
 
 在使用art-template之前先要在电脑上装node、然后通过npm管理模块安装其他模块
@@ -7,7 +7,7 @@
   
   npm安装方法:
         
-  要使用npm,需要先女装nodeJs,第一步查看本机是否有安装node
+  要使用npm,需要先安装nodeJs,第一步查看本机是否有安装node
         node -v
         
    查看node版本号(没有node,点击链接:http://nodejs.cn/)
