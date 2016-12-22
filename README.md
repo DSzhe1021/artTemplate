@@ -2,7 +2,7 @@
 仅供学习，不做任何商业用途
 
 
-在使用art-template之前先要在电脑上装node、然后在安装npm管理器
+在使用art-template之前先要在电脑上装node、然后通过npm管理模块安装其他模块
   
   
   npm安装方法:
