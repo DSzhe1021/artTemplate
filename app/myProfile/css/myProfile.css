@@ -65,7 +65,14 @@
     width: 20px;
     height: 20px;
     display: inline-block;
-    background: url("./../img/more.png") no-repeat 50% 100%;
+    background: url("../img/more-down.png") no-repeat 50% 100%;
+    background-size: auto;
+}
+#f-h-c article a:nth-child(n+6){
+    display: none;
+}
+#f-h-m a .more{
+    background: url("../img/more-up.png") no-repeat 50% 100%;
     background-size: auto;
 }
 

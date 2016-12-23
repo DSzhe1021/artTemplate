@@ -11,7 +11,7 @@ var c = require("./C.js");
 
 var myProfileM = '<article id="f-h-c1" class="clear">'+
                     '{{each data as val index}}'+
-                        '<a href="{{val.link}}">'+
+                        '<a href="{{val.link}}" class="f-hc-a">'+
                             '<span class="f-h-c-s">{{val.name}}</span>'+
                             '<i class="f-span f-span1"></i>'+
                         '</a>'+

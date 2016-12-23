@@ -12,7 +12,6 @@ var commonsPlugin = new webpack.optimize.CommonsChunkPlugin('common.js');
 module.exports = {
 	cache: true,
 	entry: {
-		index : "./app/index/js/index",
 		template : "./app/template/js/template",
         myProfile : "./app/myProfile/js/myProfile"
 	},

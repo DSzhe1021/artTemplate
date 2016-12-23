@@ -30,12 +30,8 @@ $("#f-h-c").html(render(c.myProfileData));
 
 //------------------js效果控制---------------------
 
-$("#f-h-c article a:gt(4)").hide();
 $("#f-h-m a").bind("click",function(){
-    $("#f-h-c article a:gt(4)").slideDown(500);
-    $(this).parent().hide();
+    $(this).find("i").toggleClass("more");
+    $("#f-h-c article a:gt(4)").slideToggle(500).css({"display":"block"});
 });
 
-
-
-//--------------------姓名------------------------
